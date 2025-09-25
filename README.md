@@ -1,7 +1,5 @@
 # python-daw
-## Collection of Dr Wagenaar's python libraries
-
-This repository is a collection of several python libraries I wrote to aid in general data analysis. Each of the modules is decently well documented internally. I am working on collating the documentation into a more accessible format.
+## This repository takes a function from Dr Wagenaar's excellent collection python libraries and makes it easy to install and import.
 
 ## Build instructions
 
@@ -19,3 +17,7 @@ with SCons installed, compile the C++ backends:
     scons
 
 After a little verbosity, that should print out “scons: done building targets.” If not, please report any errors.
+
+
+## Installation instructions
+Once you have build scons, install by navigating to the project directory in your terminal and enter: `pip install -e .`

@@ -1,3 +1,0 @@
-env = Environment()
-env.Replace(CXXFLAGS=['-O2','-Wall','-ansi','-pedantic', '-std=c++11'])
-env.SharedLibrary('ccore', ['ccore.cpp'])
