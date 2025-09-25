@@ -20,4 +20,17 @@ After a little verbosity, that should print out “scons: done building targets.
 
 
 ## Installation instructions
-Once you have build scons, install by navigating to the project directory in your terminal and enter: `pip install -e .`
+Once you have build scons, install by navigating to the project directory in your terminal and enter:
+
+`pip install -e .`
+
+you can import and run this package as:
+
+```python
+import peakx
+import numpy
+
+arr = np.array([1,2,3,4,5,6,7,8,9,10])
+
+on, off = peakx.schmitt(arr, 8,3)
+```
