@@ -1,5 +1,5 @@
-# python-daw
-## This repository takes a function from Dr Wagenaar's excellent collection python libraries and makes it easy to install and import.
+# peakx
+## This repository takes a schmitt trigger from Dr Wagenaar's excellent collection python libraries and makes it easy to install and import.
 
 ## Build instructions
 
@@ -13,7 +13,7 @@ On Linux you may prefer to use the system's package manager. E.g., in Debian or 
     
 with SCons installed, compile the C++ backends:
 
-    cd python-daw
+    cd peakx
     scons
 
 After a little verbosity, that should print out “scons: done building targets.” If not, please report any errors.
@@ -22,7 +22,7 @@ After a little verbosity, that should print out “scons: done building targets.
 ## Installation instructions
 Once you have build scons, install by navigating to the project directory in your terminal and enter:
 
-`pip install -e .`
+pip install -e .
 
 you can import and run this package as:
 
